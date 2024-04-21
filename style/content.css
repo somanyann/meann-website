@@ -1,3 +1,30 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+main {
+    
+}
+
+img {
+    width: 300px;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 500px 500px;
+}
+
+p {
+    text-align: justify;
+}
+
+/*for projects page conetent*/
+.each-project-contect {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    object-position: center;
+    border-width: 2px;
+    border-style: solid;
+    border-color: red;
+    /*paragraph should be in the center for this*/
+}
