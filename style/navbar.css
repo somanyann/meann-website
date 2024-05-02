@@ -1,7 +1,13 @@
 .navbar ul{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    position: fixed;
     list-style-type: none;
     background-color: red;
     overflow: hidden;
+    top: 0;
+    width: 100%;
 }
 
 .navbar li{
@@ -13,9 +19,18 @@
     color: white;
     text-decoration: none;
     display: block;
-    padding: 14px 16px 14px;
+    padding: 10px;
+}
+
+.logo-name{
+    padding: 10px 0px;
 }
 
 .navbar-right{
     float: right;
+    padding: 10px 50px;
+}
+
+.navbar-right li{
+    padding: 0px 20px;
 }

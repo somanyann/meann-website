@@ -1,15 +1,27 @@
+button{
+    border: none;
+}
 
+button li{
+    
+}
 
-.contact-button {
+.contact-button{
+    text-decoration: none;
+    list-style-type: none;
+    color: #52575d;
+    font-weight: 600;
+}
+
+.contact-button{
     background-color: #fddb3a;
-    border: #52575d solid;
-    border-width: 1px;
     border-radius: 5px;
     padding: 10px;
     margin: 5px;
     cursor: pointer;
 }
 
-.contact-button:hover {
+.contact-button:hover{
     background-color: #52575d;
+    color: white;
 }

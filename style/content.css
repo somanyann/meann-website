@@ -1,23 +1,45 @@
+/* -start of all pages in the website- */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 main {
-    
+    padding: 100px;
+    align-content: center;
+    float: center;
+    /*top: 50%;
+    left: 50%;
+    transform: translate(10%);*/
 }
 
+/* -end of all pages on the website- */
+
+/* -start home page- */
 img {
     width: 300px;
     object-fit: contain;
     object-position: center;
-    border-radius: 500px 500px;
+    border-radius: 1000px 2000px;
 }
 
 p {
     text-align: justify;
 }
 
-/*for projects page conetent*/
+.my-photo {
+    float: left;
+    width: 22%;
+    padding: 10px 40px 10px;
+}
+
+.text-about {
+    float: left;
+    width: 40%;
+    padding: 10px 40px 10px;
+}
+/* -end of home page- */
+
+/* -start of projects page content- */
 .each-project-context {
     width: 300px;
     height: 300px;
@@ -28,15 +50,4 @@ p {
     border-color: red;
     /*paragraph should be in the center for this*/
 }
-
-.my-photo {
-    float: left;
-    width: 30%;
-    padding: 10px;
-}
-
-.text-about {
-    float: left;
-    width: 60%;
-    padding: 10px;
-}
+/* -end of projects page- */

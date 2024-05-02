@@ -1,2 +1,4 @@
 Here are my color palette:
 
+yellow - #fddb3a
+gray - #52575d
