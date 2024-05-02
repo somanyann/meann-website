@@ -1,0 +1,14 @@
+.footerbar ul {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    list-style-type: none;
+    text-align: center;
+}
+
+.footerbar a{
+    text-decoration: none;
+    color: white;
+}
