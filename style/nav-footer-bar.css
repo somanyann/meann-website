@@ -8,17 +8,14 @@
     background-color: red;
     list-style-type: none;
     text-align: center;
-    overflow: hidden;
-    padding: 10px;
 }
 
 .footerbar li{
     display: inline-block;
-    padding: 0 20px;
+    padding: 10px 20px;
 }
 
 .footerbar a{
     text-decoration: none;
     color: white;
-    padding: 0px;
 }
