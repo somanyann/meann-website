@@ -1,15 +1,20 @@
 /* -start of all pages in the website- */
-body {
+* {
+    /* these things makes the border spaces disappear */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* defining the font */
+li, a, button, p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    list-style-type: none;
 }
 
 main {
-    padding: 100px;
-    align-content: center;
-    float: center;
-    /*top: 50%;
-    left: 50%;
-    transform: translate(10%);*/
+    /**/
 }
 
 /* -end of all pages on the website- */
@@ -29,13 +34,11 @@ p {
 .my-photo {
     float: left;
     width: 22%;
-    padding: 10px 40px 10px;
 }
 
 .text-about {
     float: left;
     width: 40%;
-    padding: 10px 40px 10px;
 }
 /* -end of home page- */
 

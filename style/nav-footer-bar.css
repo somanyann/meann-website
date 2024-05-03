@@ -1,10 +1,8 @@
 
-.footerbar ul{
-    position: static;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    left: 0;
+.footerbar-div{
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
     bottom: 0;
     width: 100%;
     background-color: red;
@@ -15,8 +13,8 @@
 }
 
 .footerbar li{
-    display: inline;
-    float: center;
+    display: inline-block;
+    padding: 0 20px;
 }
 
 .footerbar a{

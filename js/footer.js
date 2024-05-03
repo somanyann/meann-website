@@ -4,6 +4,6 @@ fetch('html-content/footer.html')
     let oldelem = document.querySelector("script#replace_with_footer");
     let newelem = document.createElement("div");
     newelem.innerHTML = text;
-    newelem.setAttribute("id","footerbar-div")
+    newelem.setAttribute("class","footerbar-div")
     oldelem.parentNode.replaceChild(newelem,oldelem);
 })
